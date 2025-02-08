@@ -1,0 +1,11 @@
+Client/image/
+Client/lib/
+Client/client_server_image.o
+Client/client_server_image.ico
+SeveurImage/modules/
+SeveurImage/lib/
+SeveurImage/logs/
+SeveurImage/ImageBarber/Images/
+SeveurImage/horseimageapi.o
+SeveurImage/horseimageapi.lpr.old
+

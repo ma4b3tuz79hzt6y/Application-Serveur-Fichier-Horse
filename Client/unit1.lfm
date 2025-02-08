@@ -1,0 +1,72 @@
+object Form1: TForm1
+  Left = 15
+  Height = 482
+  Top = 144
+  Width = 755
+  Caption = 'Form1'
+  ClientHeight = 482
+  ClientWidth = 755
+  LCLVersion = '3.2.0.0'
+  object BtnSendRequest: TButton
+    Left = 40
+    Height = 32
+    Top = 22
+    Width = 112
+    Caption = 'BtnGetFile'
+    TabOrder = 0
+    OnClick = BtnGetFileClick
+  end
+  object MemoResponse: TMemo
+    Left = 24
+    Height = 248
+    Top = 200
+    Width = 592
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+  object BtnUploadFile: TButton
+    Left = 174
+    Height = 25
+    Top = 29
+    Width = 131
+    Caption = 'BtnUploadFile'
+    TabOrder = 2
+    OnClick = BtnUploadFileClick
+  end
+  object EdtUrl: TEdit
+    Left = 184
+    Height = 33
+    Top = 136
+    Width = 521
+    TabOrder = 3
+    Text = 'http://localhost:9001/stream'
+  end
+  object EdtAutorisation: TEdit
+    Left = 184
+    Height = 33
+    Top = 88
+    Width = 237
+    TabOrder = 4
+    Text = '123456789'
+  end
+  object Label1: TLabel
+    Left = 45
+    Height = 16
+    Top = 98
+    Width = 83
+    Caption = 'Authorisation'
+  end
+  object Label2: TLabel
+    Left = 45
+    Height = 16
+    Top = 144
+    Width = 128
+    Caption = 'Adresse serveur(URL)'
+  end
+  object OpenDialog: TOpenDialog
+    Left = 315
+    Top = 21
+  end
+end
